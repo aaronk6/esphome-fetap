@@ -22,6 +22,6 @@ Use cases include controlling your home lightning by dialing numbers on the dial
 
 ## Sources
 
-* [machina eX](https://www.youtube.com/watch?v=KcvgQ9eWKDU) on YouTube: [Game On Stage Level 3. Tutorial#1 - Arduino küsst Telefon - YouTube](https://www.youtube.com/watch?v=KcvgQ9eWKDU)
+* [machina eX](https://www.youtube.com/channel/UClhZwejfKVzuA_tIZgygVYA) on YouTube: [Game On Stage Level 3. Tutorial#1 - Arduino küsst Telefon - YouTube](https://www.youtube.com/watch?v=KcvgQ9eWKDU)
 * mikrocontroller.net: [Hauptcode_mit_Testcode_2.ino](https://www.mikrocontroller.net/attachment/highlight/431817)
 

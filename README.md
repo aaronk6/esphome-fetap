@@ -4,7 +4,7 @@ Interprets impulses from an old FeTAp telephone and makes them available as ESPH
 
 Use cases include controlling your home lightning by dialing numbers on the dial pad.
 
-<img src="images/orange-fetap-611.jpg" alt="Orange telephone: FeTAp 611" style="zoom:50%;" />
+<img src="images/orange-fetap-611.jpg" alt="Orange telephone: FeTAp 611" width="640" />
 
 ## Exposed Sensors
 
@@ -13,7 +13,7 @@ Use cases include controlling your home lightning by dialing numbers on the dial
 
 ## Log Output
 
-![log_output](images/log_output.png)
+<img src="images/log_output.png" alt="ESPHome log output" width="722" />
 
 ## Hardware
 

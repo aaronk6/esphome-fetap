@@ -1,0 +1,38 @@
+substitutions:
+  devicename: fetap
+
+esphome:
+  name: $devicename
+  platform: ESP32
+  board: esp32dev
+  includes:
+    - fetap.h
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+  fast_connect: on
+
+logger:
+
+api:
+
+ota:
+
+sensor:
+  - platform: custom
+    lambda: |-
+      auto sensors = new FeTAp();
+      App.register_component(sensors);
+      return {sensors->cradle_sensor, sensors->dial_sensor};
+    sensors:
+      - name: Cradle Sensor
+        internal: true
+        id: cradle_sensor
+      - name: Dial Sensor
+
+binary_sensor:
+  - platform: template
+    name: Cradle Sensor
+    lambda: |-
+      return id(cradle_sensor).state == 1;

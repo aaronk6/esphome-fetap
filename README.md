@@ -9,7 +9,7 @@ Use cases include controlling your home lightning by dialing numbers on the dial
 ## Exposed Sensors
 
 * **Cradle Sensor:** Sends `ON` when the cradle is lifted up, and `OFF` when it’s hung up.
-* **Dial Sensor:** Sends `0-9`, depending on what the digit you’ve dialed. Note that after publishing the digit, it immediately changes back to its default state -1, so dialing the the same digit multiple times in a row will always cause the sensor to change.
+* **Dial Sensor:** Sends `0-9`, depending on the digit you’ve dialed. Note that after publishing the digit, it will immediately publish its default value of `-1` again, so dialing the the same digit multiple times in a row will always cause the sensor to trigger a change.
 
 ## Log Output
 

@@ -1,4 +1,4 @@
-# FeTAp-ESPHome
+# ESPHome-FeTAp
 
 Interprets impulses from an old FeTAp telephone and makes them available as ESPHome sensor data.
 
